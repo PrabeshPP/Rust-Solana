@@ -35,6 +35,49 @@ fn main() {
     // println!("x is {0} y is {1} and {0} multiply {1} is {2}",x,y,result);
 
     //BitWise Operations
+    //Not
+    //Or
+    //And
+    //Xor
+    //Shift
+
+    // let mut value=10;
+    // value=!value;
+    // print!("value is {}",value)
     
+    // And wise bit operation
+    // let first_bit=2;
+    // let second_bit=3;
+    // println!("And Bit Wise Operation is {}",first_bit&second_bit);
+
+    //Checking whether the given number is odd or even using bitwise operator
+    // let number=100;
+    // let result=number&1;
+    // if result==0 {
+    //     println!("Number is even");
+    // }else {
+    //     println!("Number is Odd");
+    // }
+
+
+    //XOR Operator
+    let num1=2;
+    let num2=1;
+    let xor_result=num1^num2;
+    println!("XOR of {0} and {1} is {2}",num1,num2,xor_result);
+
+    //Bitwise shift in Rust
+    //Left Shift Operator
+    let random=2;
+    println!("Value after shifting with left shifter {}",random<<4);
+
+    //Right Shift Operator
+    let random1=2;
+    println!("Value after shifting with Right Shifter {}",random1>>4);
+
+
+    
+
+
 
 }
