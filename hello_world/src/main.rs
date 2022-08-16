@@ -8,7 +8,7 @@ fn main() {
     let mut x:i8=90;
     // By default variables are immutable in Rust
     x=20;
-    println!("X value is {}",x);
+    println!("X value is {x}");
 
     //DataType in Rust
     //Floating Data Types
