@@ -92,5 +92,10 @@ fn main() {
     
     array::array();
     functions_rust::say_hello(20, 40);
+    let num1=2;
+    let num2=2;
+    functions_rust::function1(num1,num2);
 
+    let value_square=functions_rust::square(20);
+    println!("The square of the given  number is {value_square}")
 }
