@@ -1,6 +1,7 @@
 mod arthimetic_average;
 mod array;
 mod functions_rust;
+mod temperature_converter;
 
 fn main() {
     //variable in Rust
@@ -97,5 +98,8 @@ fn main() {
     functions_rust::function1(num1,num2);
 
     let value_square=functions_rust::square(20);
-    println!("The square of the given  number is {value_square}")
+    println!("The square of the given  number is {value_square}");
+    let temp_in_celsius=23;
+    let temp_in_fahrenheit=temperature_converter::celsius_to_fahrenheit(temp_in_celsius);
+    println!("The current temperature in Fahrenheit is {temp_in_fahrenheit}")
 }
