@@ -5,6 +5,8 @@ mod temperature_converter;
 mod conditional;
 mod loops_rust;
 mod for_loop;
+mod nested_loop;
+mod challenge2;
 
 fn main() {
     //variable in Rust
@@ -108,4 +110,6 @@ fn main() {
     conditional::conditional();
     loops_rust::Loop();
     for_loop::forLoop();
+    nested_loop::nested_loop();
+    challenge2::challenge2();
 }
