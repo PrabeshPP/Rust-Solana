@@ -4,6 +4,7 @@ mod functions_rust;
 mod temperature_converter;
 mod conditional;
 mod loops_rust;
+mod for_loop;
 
 fn main() {
     //variable in Rust
@@ -106,4 +107,5 @@ fn main() {
     println!("The current temperature in Fahrenheit is {temp_in_fahrenheit}");
     conditional::conditional();
     loops_rust::Loop();
+    for_loop::forLoop();
 }
