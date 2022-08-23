@@ -9,6 +9,7 @@ mod nested_loop;
 mod challenge2;
 mod ownership_rust;
 mod transferring_ownership;
+mod ownership;
 
 fn main() {
     //variable in Rust
