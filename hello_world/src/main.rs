@@ -7,6 +7,8 @@ mod loops_rust;
 mod for_loop;
 mod nested_loop;
 mod challenge2;
+mod ownership_rust;
+mod transferring_ownership;
 
 fn main() {
     //variable in Rust
@@ -112,4 +114,11 @@ fn main() {
     for_loop::forLoop();
     nested_loop::nested_loop();
     challenge2::challenge2();
+    ownership_rust::ownership_rust();
+    let propellant=String::from("RP-1");
+    let rocket_fuel=transferring_ownership::transferring_ownership(propellant);
+    println!("Rocket fuel is {rocket_fuel}");
+
+
+
 }
