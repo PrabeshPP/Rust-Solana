@@ -7,5 +7,14 @@ pub fn ownership_rust(value:String){
         */
 
 
+        /*
+        String literal are hardcoded into our program.
+        A String is made up of three parts.
+        1.Pointer
+        2.Length
+        3.Capacity
+        */
+
+
         
 }
