@@ -13,6 +13,7 @@ pub fn ownership_rust(value:String){
         1.Pointer
         2.Length
         3.Capacity
+        
         */
 
 
